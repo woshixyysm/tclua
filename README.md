@@ -51,7 +51,7 @@ if {$x > 5} {
     puts "x is greater than 5"
 }
 
-### 表操作
+## 表操作
 
 # 创建表
 set person {name "John" age 30}
@@ -86,7 +86,7 @@ $c increment
 $c increment
 puts "Counter: [$c get]"  # 输出: Counter: 2
 
-### 异常处理
+## 异常处理
 
 # 异常捕获
 try {
@@ -110,9 +110,12 @@ puts [expr 32767 / 721]  # 使用自定义除法实现
 
 ## 构建与运行
 
-1. 确保安装支持 C++17 的编译器
+1. 确保安装了CMake和C++17编译器
 2. 编译程序：
-   g++ -std=c++17 -o tclua 1.cpp
+   mkdir build
+   cd build
+   cmake ..
+   cmake --build .
 3. 运行解释器：
    ./tclua
 
