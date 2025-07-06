@@ -33,8 +33,6 @@ TCLuaInterpreter 是一个创新的脚本解释器，巧妙地将 TCL 的简洁�
    - 大括号字符串：`{text}`
    - 元表支持运算符重载
 
-## 基本用法
-
 # 变量操作
 set x 10
 set y [expr $x * 2]
