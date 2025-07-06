@@ -142,7 +142,7 @@ puts [myTable get non_existent_key]  # 输出默认值 0
 1. 解释器处于alpha阶段，某些高级特性可能不够完善
 2. 错误处理会显示 C++ 异常信息
 3. 性能未优化，不适用于高性能场景
-4. 部分代码是deepseek和chatgpt写的（误
+4. 部分代码是ai帮忙写的（误
 
 ## 贡献
 
